@@ -1,0 +1,57 @@
+<html lang="en-us">
+<head>
+    <title>Lab 1. Task 2. Oleksandr Popov. IT-z01. Variant 24 (4)</title>
+    <meta charset="UTF-8">
+    <style>
+        .container {
+            width: 80%;
+            height: 80%;
+            position: absolute;
+            left: 10%;
+            top: 10%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 0;
+            grid-row-gap: 0;
+        }
+
+        .div1, .div2, .div3, .div4 {
+            position: relative;
+        }
+
+        .div1 {
+            grid-area: 1 / 1 / 4 / 2;
+        }
+
+        .div2 {
+            grid-area: 1 / 2 / 4 / 3;
+        }
+
+        .div3 {
+            grid-area: 4 / 1 / 5 / 3;
+        }
+
+        .div4 {
+            grid-area: 5 / 1 / 6 / 3;
+        }
+
+        h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="div1" style="background-color: lightgray"><h1>Img.</h1></div>
+    <div class="div2" style="background-color: lightblue"><h1>Text.</h1></div>
+    <div class="div3" style="background-color: darkblue"><h1>Img.</h1></div>
+    <div class="div4" style="background-color: darkkhaki"><h1>Text.</h1></div>
+</div>
+</body>
+</html>
